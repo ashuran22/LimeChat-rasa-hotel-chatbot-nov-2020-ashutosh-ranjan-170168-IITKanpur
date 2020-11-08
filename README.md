@@ -167,7 +167,7 @@ Usage of git to iteratively build your code will be much appreciated. It will he
 
 # Submission
 
-Please fill in [this google form](https://forms.gle/hNmNu2vS62TCPWPq7) to submit your assignment. (It contains some info about your assignment such as link to your repo and model which will help us in auto-grading)
+Please fill out the google form provided in the assignment email to submit your assignment. (It contains some info about your assignment such as link to your repo and model which will help us in auto-grading)
 
 Point to note - 
 * Make sure that the link to your assignment repo is correct
