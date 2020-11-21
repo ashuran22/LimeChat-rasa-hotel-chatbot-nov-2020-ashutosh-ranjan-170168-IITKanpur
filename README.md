@@ -175,7 +175,9 @@ Please fill out the google form provided in the assignment email to submit your 
 
 Point to note - 
 * Make sure that the link to your assignment repo is correct
-* Make sure that the link to your model is visible and downloadable using wget.
+* Make sure that the link to your model is visible and downloadable
+
+Your model should be a google drive link of the form https://drive.google.com/file/d/<file_id>/view?usp=sharing
 
 Both of these are essential for us to auto-grade your submission.
 
