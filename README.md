@@ -3,7 +3,7 @@ We will be using the Rasa framework for this assignment. Do not worry if you hav
 
 This assignment is intended to test your learning ability and problem-solving skills together with basic coding skills.
 
-Expected time: 4 days
+Expected time: 3 days
 
 We hope that you have fun learning a new framework and building the chatbot!
 
@@ -42,6 +42,8 @@ For eg. in our Book Room example, we have the user say "I want to book a room". 
 
 Please add at least 5 training examples for each intent so that the bot is able to handle.
 
+**Note: Please keep the bot utterances exactly as mentioned in the examples as they are essential in our automated testing scripts**
+
 ## Book Room
 
 User: I want to book a room.
@@ -51,8 +53,8 @@ Bot: How many rooms would you like to book?
 User: 2 rooms
 
 Bot: What type of room would you want to book?
-- Button1 - Simple 
-- Button 2 - Deluxe
+- (Button 1) Simple 
+- (Button 2) Deluxe
 
 User: (Clicks on Button 1)
 
@@ -140,6 +142,8 @@ For a small example -
 User: I want to book a room.
 
 Bot: How many rooms would you like to book?
+
+User: What are your check-in timings?
 
 Bot: Check-in time starts at 4 PM. Minimum check-in age is 21. Please contact the reception for early check-in requests.
 
