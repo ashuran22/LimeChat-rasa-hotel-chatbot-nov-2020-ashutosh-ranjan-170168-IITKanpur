@@ -1,0 +1,77 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: book room
+  steps:
+  - intent: booking
+  - action: utter_book_a_room
+  - intent: no_of_room
+  - action: utter_type_of_room
+
+- story: clean room
+  steps:
+  - intent: clean
+  - action: utter_clean_room
+  - intent: clean_now
+  - action: utter_clean_right_now
+  - intent: schedule_cleaning
+  - action: utter_schedule_clean
+
+- story: faq
+  steps:
+  - intent: check_in_time
+  - action: utter_check_in_time
+  - intent: check_out_time
+  - action: utter_check_out_time
+  - intent: cancel_reservation
+  - action: utter_cancel_resv
+  - intent: cancellation_policy
+  - action: utter_cancel_policy
+  - intent: restaurant
+  - action: utter_restaurant
+  - intent: breakfast_timing
+  - action: utter_breakfast_time
+  - intent: breakfast_availability
+  - action: utter_breakfast_avail
+  - intent: restaurant_timing
+  - action: utter_restaurant_time
+  - intent: clean
+  - action: utter_clean_room
+  - intent: clean_now
+  - action: utter_clean_right_now
+  - intent: schedule_cleaning
+  - action: utter_schedule_clean
+  - intent: booking
+  - action: utter_book_a_room
+  - intent: no_of_room
+  - action: utter_type_of_room
